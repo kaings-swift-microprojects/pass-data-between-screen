@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: UIViewController, uiScreen {
     @IBOutlet weak var firstScreenLabel: UILabel!
     @IBOutlet weak var firstScreenTextField: UITextField!
     
@@ -30,7 +30,12 @@ class FirstViewController: UIViewController {
         if segue.identifier == "goToSecondScreen" {
             let secondVC = segue.destination as! SecondViewController
             secondVC.inputFromFirstVC = firstScreenTextField.text
+            secondVC.delegate = self
         }
+    }
+    
+    func passDataToFirstScreen(data: String) {
+        firstScreenLabel.text = data
     }
 }
 

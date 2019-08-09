@@ -8,11 +8,16 @@
 
 import UIKit
 
+protocol uiScreen {
+    func passDataToFirstScreen(data: String)
+}
+
 class SecondViewController: UIViewController {
     @IBOutlet weak var secondScreenLabel: UILabel!
     @IBOutlet weak var secondScreenTextField: UITextField!
     
     var inputFromFirstVC: String!
+    var delegate: uiScreen?     // optional: maybe will have nil value
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +27,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func secondScreenBtn(_ sender: UIButton) {
+        delegate?.passDataToFirstScreen(data: secondScreenTextField.text!)   // if delegate is not nil, perform func passDataToFirstScreen
         self.dismiss(animated: true, completion: nil)
     }
     

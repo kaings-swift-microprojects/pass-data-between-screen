@@ -12,6 +12,7 @@
 		BE3AE76E22FD5C85003621A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3AE76C22FD5C85003621A1 /* Main.storyboard */; };
 		BE3AE77022FD5C87003621A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3AE76F22FD5C87003621A1 /* Assets.xcassets */; };
 		BE3AE77322FD5C87003621A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE3AE77122FD5C87003621A1 /* LaunchScreen.storyboard */; };
+		BE3AE77D22FD61F2003621A1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3AE77C22FD61F2003621A1 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BE3AE76F22FD5C87003621A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3AE77222FD5C87003621A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE3AE77422FD5C87003621A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE3AE77C22FD61F2003621A1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BE3AE76822FD5C85003621A1 /* AppDelegate.swift */,
 				BE3AE76A22FD5C85003621A1 /* FirstViewController.swift */,
+				BE3AE77C22FD61F2003621A1 /* SecondViewController.swift */,
 				BE3AE76C22FD5C85003621A1 /* Main.storyboard */,
 				BE3AE76F22FD5C87003621A1 /* Assets.xcassets */,
 				BE3AE77122FD5C87003621A1 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3AE77D22FD61F2003621A1 /* SecondViewController.swift in Sources */,
 				BE3AE76B22FD5C85003621A1 /* FirstViewController.swift in Sources */,
 				BE3AE76922FD5C85003621A1 /* AppDelegate.swift in Sources */,
 			);

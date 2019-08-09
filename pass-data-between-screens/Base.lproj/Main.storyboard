@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
         </scene>
-        <!--Second View-->
+        <!--Second View Controller-->
         <scene sceneID="vb0-in-Ack">
             <objects>
-                <viewController id="a7D-PM-hfr" customClass="SecondView" sceneMemberID="viewController">
+                <viewController id="a7D-PM-hfr" customClass="SecondViewController" customModule="pass_data_between_screens" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ETY-r2-8f3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

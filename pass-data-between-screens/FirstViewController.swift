@@ -24,5 +24,13 @@ class FirstViewController: UIViewController {
     @IBAction func switchToPinkBackground(_ sender: UIButton) {
         view.backgroundColor = UIColor.blue
     }
+    
+    //    prepare for segue: override prepare func
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToSecondScreen" {
+            let secondVC = segue.destination as! SecondViewController
+            secondVC.inputFromFirstVC = firstScreenTextField.text
+        }
+    }
 }
 

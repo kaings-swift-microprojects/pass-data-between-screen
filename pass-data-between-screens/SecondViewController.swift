@@ -12,10 +12,13 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var secondScreenLabel: UILabel!
     @IBOutlet weak var secondScreenTextField: UITextField!
     
+    var inputFromFirstVC: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        secondScreenLabel.text = inputFromFirstVC
     }
     
     @IBAction func secondScreenBtn(_ sender: UIButton) {

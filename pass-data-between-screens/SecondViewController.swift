@@ -9,14 +9,18 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    @IBOutlet weak var secondScreenLabel: UILabel!
+    @IBOutlet weak var secondScreenTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func secondScreenBtn(_ sender: UIButton) {
+    }
+    
     /*
     // MARK: - Navigation
 

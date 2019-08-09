@@ -9,12 +9,16 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    @IBOutlet weak var firstScreenLabel: UILabel!
+    @IBOutlet weak var firstScreenTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func firstScreenBtn(_ sender: UIButton) {
+    }
+    
 }
 

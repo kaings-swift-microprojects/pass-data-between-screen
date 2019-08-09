@@ -19,6 +19,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func secondScreenBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*

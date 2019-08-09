@@ -18,7 +18,11 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func firstScreenBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToSecondScreen", sender: self)
     }
     
+    @IBAction func switchToPinkBackground(_ sender: UIButton) {
+        view.backgroundColor = UIColor.blue
+    }
 }
 
